@@ -1,9 +1,23 @@
 _**Unsupervised Learning**_
 
-Unsupervised machine learning involves training models on unlabeled data to discover hidden patterns, groupings, or structures without predefined outputs. Unlike supervised learning, where the model learns from labeled examples, unsupervised algorithms explore data independently, making them useful for exploratory analysis, dimensionality reduction, and clustering.
+📚 What is Unsupervised Learning?
 
-One common technique is K-Means Clustering, which groups data into *k* clusters by iteratively refining centroids. It’s efficient for large datasets but requires specifying the number of clusters in advance. Another approach is DBSCAN, which forms clusters based on data density, automatically identifying outliers. It works well for irregularly shaped clusters but struggles with varying densities.
+Unsupervised learning is a type of machine learning where the model is trained without labeled data. This means the algorithm is given input data without knowing the “correct” answers or outcomes — it’s up to the model to discover patterns, groupings, or structure hidden inside the data.
 
-For simplifying complex data, Principal Component Analysis (PCA) reduces dimensions by transforming features into a smaller set of uncorrelated components while preserving variance. This helps in visualization and speeding up models. Similarly, Singular Value Decomposition (SVD) compresses data—such as images—by breaking matrices into key components and retaining only the most significant ones, enabling efficient storage and processing.
+⚙️ How Unsupervised Learning Works
 
-These algorithms are widely used in customer segmentation, anomaly detection, feature reduction, and image compression, making unsupervised learning a powerful tool for uncovering insights from raw data.
+- The algorithm is fed a dataset with only input features, no labels.
+- It analyzes relationships between data points, i.e., Which points are similar or close together? Which directions have the most variance? How can we group or compress the data meaningfully?
+- It outputs structure: clusters, compressed representations, or low-dimensional projections.
+
+🔀 Two Main Types of Unsupervised Learning
+
+- Clustering: grouping similar data points (e.g., K-Means, DBSCAN)
+- Dimensionality reduction: simplifying data while preserving its essential structure (e.g., PCA, SVD)
+
+🔧 Unsupervised Learning Algorithms
+
+- K-Means Clustering
+- DBSCAN
+- Principal Component Analysis
+- Image Compression with the Singular Value Decomposition (SVD)
