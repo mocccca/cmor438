@@ -1,4 +1,4 @@
-# Decision Tree Analysis for Psychological Predictions
+# Decision Tree
 
 ## Overview
 Decision trees are versatile ML models that make predictions by learning hierarchical decision rules from data. Key features:
@@ -15,10 +15,17 @@ Decision trees are versatile ML models that make predictions by learning hierarc
 3. **Prediction**: Traverses tree rules to reach a leaf node  
 
 
-## 📊 Dataset & Tasks
+## Dataset & Tasks
 ### A. Regression: Predicting Depression Scores
 **Features**:  
-`emotional_exhaustion_composite`, `procrastination_composite`, `workaholism_composite`, `neuroticism_composite`, `general_js_composite`, `global_js_composite`  
+- `emotional_exhaustion_composite`
+- `procrastination_composite`
+- `workaholism_composite`
+- `neuroticism_composite`
+- `general_js_composite`
+- `global_js_composite`
+
+  
 **Target**:  
 Continuous `depression_composite` (range 0-30)  
 
@@ -27,8 +34,13 @@ Continuous `depression_composite` (range 0-30)
 - Standardized features (Z-score normalization)  
 
 ### B. Classification: Identifying Supervisors
+
 **Features**:  
-`age`, `ocb_composite`, `ip_realistic`, `education_level` (ordinal 1-8)  
+- `age`
+- `ocb_composite`
+- `ip_realistic`
+- `education_level` (ordinal 1-8)
+- 
 **Target**:  
 Binary `org_status_3` (0=Non-supervisor, 1=Supervisor)  
 
@@ -46,7 +58,8 @@ Binary `org_status_3` (0=Non-supervisor, 1=Supervisor)
   2. Procrastination (0.31)
  
 ### Classification Results (Accuracy = 72%)
-- **High recall for non-supervisors (1.00)** - Correctly identifies all true non-supervisors
-- **Low recall for supervisors (0.36)**:  Misses 64% of actual supervisors
-  1. Emotional exhaustion (Gini importance = 0.48)  
-  2. Procrastination (0.31)  
+- Same accuracy rate as results from logistic regression, but
+   - **high recall for non-supervisors (1.00)** - Correctly identifies all true non-supervisors
+   - **low recall for supervisors (0.36)**:  Misses 64% of actual supervisors
+     1. Emotional exhaustion (Gini importance = 0.48)  
+     2. Procrastination (0.31)  
