@@ -35,15 +35,18 @@ In multiple linear regression, this generalizes to: y = β₀ + β₁x₁ + β�
 
 **Goal**: Predict depression scores using psychological and job-related predictors.
 
-```python
-# Variables used
-'depression_composite',
+
+### Variables used
+**Predictors**
 'emotional_exhaution_composite',
 'procrastination_composite',
 'workaholism_composite',
 'neuroticism_composite',
 'general_js_composite',
 'global_js_composite'
+
+**Target**
+'depression_composite'
 
 ## Key Insights
 
