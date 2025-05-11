@@ -40,7 +40,7 @@ Continuous `depression_composite` (range 0-30)
 - `ocb_composite`
 - `ip_realistic`
 - `education_level` (ordinal 1-8)
-- 
+
 **Target**:  
 Binary `org_status_3` (0=Non-supervisor, 1=Supervisor)  
 
@@ -52,7 +52,7 @@ Binary `org_status_3` (0=Non-supervisor, 1=Supervisor)
 
 ## Key Insights
 ### Regression Results (R² = 0.39)
-- **Moderate explanatory power** - Model explains 39% of depression score variance  
+- **Moderate explanatory power** - Model explains 39% of depression score variance, but significantly lower than results from linear regression (R² = 0.56).
 - **Top predictors**:  
   1. Emotional exhaustion (Gini importance = 0.48)  
   2. Procrastination (0.31)
