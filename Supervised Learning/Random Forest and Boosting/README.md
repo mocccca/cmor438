@@ -42,7 +42,8 @@ For regression tasks, the final prediction is the average of all trees’ output
 - `absorption_composite`
 
 **Task**
-apply Random Forest Regressor and Gradient Boosting Regressor to predict procrastination and compare the results of the models.
+
+apply random forest regressor and gradient boosting regressor to predict procrastination and compare the results of the models.
 
 ## Key Insights
 1. **Random Forest outperformed Gradient Boosting**, achieving 53% variance explained (R²=0.53) versus 40%.  
